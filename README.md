@@ -15,7 +15,7 @@ Projeto que propunha a criação de funções para conversão de formatos(xml, c
 :paperclip: As funções criadas utilizaram os design patterns: - Strategy e Iterator.<br>
 As tecnologias utilizadas foram:Python e Pytest.<br>
 **link do projeto:**<br>
- https://github.com/tamireshc/python/tree/main/inventory-report <br>
+ https://github.com/tamireshc/python/tree/main/project-inventory-report <br>
 
 :sunglasses:  3. **Job Insights** <br>
 Projeto que propunha a criação de funções e testes. <br>
@@ -23,7 +23,7 @@ Projeto que propunha a criação de funções e testes. <br>
  As funções desenvolvidas foram utilizadas para alimentar uma interface em flask. <br>
  As funcões desenvolvidas permitiram converter dados em csv para listas de dicionários,  partir dessas listas foi possível filtrar os dados confome a interface solicitava.<br>
  **link do projeto:**<br>
- https://github.com/tamireshc/python/tree/main/job-insights <br>
+ https://github.com/tamireshc/python/tree/main/project-job-insights <br>
    :pushpin: ***A interface em flask foi fornecida ao início do projeto***
 
   
