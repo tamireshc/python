@@ -1,0 +1,127 @@
+import math
+from datetime import date
+from typing import List, Dict
+
+
+def max_salary_key(job: Dict) -> int:
+    """
+    Gets max_salary as a sorting key.
+
+    Missing information is treated as the lowest possible value.
+
+    Parameters
+    ----------
+    job : dict
+        Dict represeting a job from the dataset.
+
+    Returns
+    -------
+    Job's max salary as an int, or -infinite.
+    """
+    try:
+        return int(job["max_salary"])
+    except (KeyError, TypeError, ValueError):
+        return -math.inf
+
+
+def min_salary_key(job: Dict) -> int:
+    """
+    Gets min_salary as a sorting key.
+
+    Missing information is treated as the highest possible value.
+
+    Parameters
+    ----------
+    job : dict
+        Dict represeting a job from the dataset.
+
+    Returns
+    -------
+    Job's min salary as an int, or infinite.
+    """
+    try:
+        return int(job["min_salary"])
+    except (KeyError, TypeError, ValueError):
+        return math.inf
+
+
+def date_posted_key(job: Dict) -> date:
+    """
+    Gets date_posted as a sorting key.
+
+    Missing information is treated as the lowest possible value.
+
+    Parameters
+    ----------
+    job : dict
+        Dict represeting a job from the dataset.
+
+    Returns
+    -------
+    Job's date_posted as a date object.
+    """
+    try:
+        return date.fromisoformat(job["date_posted"])
+    except (KeyError, TypeError, ValueError):
+        return date.min
+
+
+def sort_by(jobs: List[Dict], criteria: str) -> None:
+    """
+    Sorts jobs by a given criteria, in-place.
+
+    Sorting must be descending, except for `min_salary` criteria.
+    Jobs missing the criteria should end up last.
+    Invalid criteria should raise ValueError.
+
+    Parameters
+    ----------
+    jobs : list
+        List of dicts representing the jobs.
+    criteria : str
+        One of `min_salary`, `max_salary` or `date_posted`.
+    """
+    criteria_keys = {
+        "date_posted": date_posted_key,
+        "max_salary": max_salary_key,
+        "min_salary": min_salary_key,
+    }
+
+    try:
+        key = criteria_keys[criteria]
+    except KeyError:
+        raise ValueError(f"invalid sorting criteria: {criteria}")
+
+    reverse = criteria in ["max_salary", "date_posted"]
+
+    jobs.sort(key=key, reverse=reverse)
+
+
+data_test = [
+    {
+        "job_title": "Data Engineer/Architect with Security Clearance",
+        "min_salary": "74916",
+        "max_salary": "128610",
+        "date_posted": "2020-04-24",
+        "job_type": "FULL_TIME",
+        "id": "3319",
+    },
+    {
+        "job_title": "Data Engineer with Security Clearance",
+        "min_salary": "58824",
+        "max_salary": "112227",
+        "date_posted": "2020-05-02",
+        "job_type": "FULL_TIME",
+        "id": "3320",
+    },
+    {
+        "job_title": "Data Engineer with Security Clearance",
+        "min_salary": "91443",
+        "max_salary": "155868",
+        "date_posted": "2020-05-02",
+        "job_type": "FULL_TIME",
+        "id": "3323",
+    },
+]
+
+# sort_by(data_test, "xxx")
