@@ -10,14 +10,20 @@ Os dados foram armazenados utilizando o banco MongoDB <br>
  **link do projeto:**<br>
 https://github.com/tamireshc/python/tree/main/project-tech-news <br>
 
-:sunglasses:  2. **Inventoy Report** <br>
+:star:  2. **Algorithms** <br>
+Projeto que propunha o desenvolvimento de algoritmos recursivos e iterativos com complexidade igual ou inferior a O(n log n)<br>
+ As tecnologias utilizadas foram: Python e Pytest<br>
+ **link do projeto:**<br>
+https://github.com/tamireshc/python/tree/main/algorithms
+
+:sunglasses:  3. **Inventoy Report** <br>
 Projeto que propunha a criação de funções para conversão de formatos(xml, csv e json) pra listas de dicionários. Após a conversão as funções fazem filtragem de dados para a exibição das informações mais relevantes.<br>
 :paperclip: As funções criadas utilizaram os design patterns: - Strategy e Iterator.<br>
 As tecnologias utilizadas foram:Python e Pytest.<br>
 **link do projeto:**<br>
  https://github.com/tamireshc/python/tree/main/project-inventory-report <br>
 
-:sunglasses:  3. **Job Insights** <br>
+:sunglasses:  4. **Job Insights** <br>
 Projeto que propunha a criação de funções e testes. <br>
  As tecnologias utilizadas foram:Python e Pytest.<br>
  As funções desenvolvidas foram utilizadas para alimentar uma interface em flask. <br>
