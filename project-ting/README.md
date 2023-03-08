@@ -1,13 +1,11 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybe is not Google
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Projeto que propunha o desenvolvimento de um programa para buscar palavras pré determinads em arquivos .txt anexados.<br>
+Na criação do programa foi utilizado o Tipos Abstratos de Dados (TADs) - Filas - implementado utilizando da Estrutura de Dados (ED) - Queue. <br>
+As tecnologias utilizadas foram:Python e Pytest.<br>
+**link do projeto:**<br>
+https://github.com/tamireshc/python/tree/main/project-ting <br>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+:camera: **Imagem da estrutura do projeto** 
+
+<img width="1435" alt="Captura de Tela 2023-03-08 às 16 46 37" src="https://user-images.githubusercontent.com/65035109/223828414-9632275c-7105-41a4-83f9-719cbdcf89cb.png">
