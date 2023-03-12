@@ -25,7 +25,7 @@ As tecnologias utilizadas foram:Python e Pytest.<br>
  
 :star:  4. **Trybe is not Google** <br>
 Projeto que propunha o desenvolvimento de um programa para buscar palavras pré determinads em arquivos .txt anexados.<br>
-Na criação do programa foi utilizado o Tipos Abstratos de Dados (TADs) - Filas - implementado utilizando da Estrutura de Dados (ED) - Queue. <br>
+Na criação do programa foi utilizado o Tipos Abstratos de Dados (TADs) - Filas - implementado a Estrutura de Dados (ED) - Queue. <br>
 As tecnologias utilizadas foram:Python e Pytest.<br>
 **link do projeto:**<br>
 https://github.com/tamireshc/python/tree/main/project-ting <br>
