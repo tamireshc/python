@@ -1,13 +1,9 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# :fork_and_knife: Restaurant Orders :fork_and_knife:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+- Projeto que propunha o desenvolvimento de um programa para analisar logs de pedidos de um restaurante. 
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+- A aplicação emite relatórios sobre o consumo de determinados clientes e o inventário do estoque, tornando possível obter a lista de compras de acordo com os valores do estoque e retirar do cardápio os pratos cujo estoque não possui itens suficientes.
+
+- Na criação do programa foi utilizado o Tipos Abstratos de Dados (TADs) - Hashmap - implementado a Estrutura de Dados (ED) - Set.
+
+- As tecnologias utilizadas foram:Python e Pytest.
