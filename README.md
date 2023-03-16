@@ -30,7 +30,15 @@ As tecnologias utilizadas foram:Python e Pytest.<br>
 **link do projeto:**<br>
 https://github.com/tamireshc/python/tree/main/project-ting <br>
 
-:sunglasses:  5. **Job Insights** <br>
+:star:  5. **Restaurant Orders** <br>
+Projeto que propunha o desenvolvimento de um programa para analisar logs de pedidos de um restaurante.
+A aplicação emite relatórios sobre o consumo de determinados clientes e o inventário do estoque, tornando possível obter a lista de compras de acordo com os valores do estoque e retirar do cardápio os pratos cujo estoque não possui itens suficientes.<br>
+Na criação do programa foi utilizado o Tipos Abstratos de Dados (TADs) - Hashmap - implementado a Estrutura de Dados (ED) - Set. <br>
+As tecnologias utilizadas foram:Python e Pytest.<br>
+**link do projeto:**<br>
+https://github.com/tamireshc/python/tree/main/restaurante-ordersg <br>
+
+:sunglasses:  6. **Job Insights** <br>
 Projeto que propunha a criação de funções e testes. <br>
  As tecnologias utilizadas foram:Python e Pytest.<br>
  As funções desenvolvidas foram utilizadas para alimentar uma interface em flask. <br>
