@@ -36,7 +36,7 @@ A aplicação emite relatórios sobre o consumo de determinados clientes e o inv
 Na criação do programa foi utilizado o Tipos Abstratos de Dados (TADs) - Hashmap - implementado a Estrutura de Dados (ED) - Set. <br>
 As tecnologias utilizadas foram:Python e Pytest.<br>
 **link do projeto:**<br>
-https://github.com/tamireshc/python/tree/main/restaurante-ordersg <br>
+https://github.com/tamireshc/python/tree/main/restaurante-orders<br>
 
 :sunglasses:  6. **Job Insights** <br>
 Projeto que propunha a criação de funções e testes. <br>
